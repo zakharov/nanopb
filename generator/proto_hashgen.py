@@ -88,8 +88,7 @@ def generate(packageName, messages, filename_output="UNDEFINED", filename_input=
            "template <class T>\n"                                                                                   		 \
            "inline const unsigned char* get_hash()\n"                                                               		 \
            "{\n"                                                                                                    		 \
-           "    static unsigned char type[] = {0};\n"                                                               		 \
-           "    return type;\n"                                                                                     		 \
+           "    return NULL;\n"                                                                                     		 \
            "}\n\n"
 
 
